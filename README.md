@@ -1,7 +1,7 @@
 # Clash Royale API for NPM
 
-![NPM Downloads](https://img.shields.io/npm/dm/%40natoune%2Froyale-api)
-![NPM License](https://img.shields.io/npm/l/%40natoune%2Froyale-api)
+![NPM Downloads](https://img.shields.io/npm/dm/royale-api)
+![NPM License](https://img.shields.io/npm/l/royale-api)
 
 A wrapper for the [Clash Royale API](https://developer.clashroyale.com).  
 This package is not affiliated with [Supercell](https://supercell.com/) or [RoyaleAPI](https://royaleapi.com/).
@@ -16,13 +16,13 @@ You can also use another API provider like [RoyaleAPI](https://docs.royaleapi.co
 First, install the package using NPM or your favorite package manager:
 
 ```bash
-npm install @natoune/royale-api
+npm install royale-api
 ```
 
 Usage example:
 
 ```javascript
-const RoyaleAPI = require("@natoune/royale-api");
+const RoyaleAPI = require("royale-api");
 
 const cr = new RoyaleAPI("token");
 
